@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+}
+
+footer {
+  padding-bottom: 10px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.m-b {
+  margin-bottom: 15px;
+}
+
+.input-group-addon,
+.input-group-btn {
+  width: auto;
+}
+
+.input-group-addon {
+  background-color: white;
+}
+
+pre {
+  padding: 0;
+}
+.header{
+    display:block;
+      height: 15vh;
+      
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,8AB6CF+81,2768BF+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #8AB6CF 81%, #2768BF 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#8AB6CF 81%,#2768BF 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 50%,#8AB6CF 81%,#2768BF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2768BF',GradientType=0 ); /* IE6-9 */
+}
+.logo{
+   float: left;
+    width: 120px;    
+    background-image: url('../img/logo.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    height: 13vh;
+    margin-top:1vh;
+}
+.menu{
+   
+}
+.content{
+   
+}
+  
+  
+  @media (min-width: 768px) {
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+	max-width:300px;
+	margin-right: 0;
+	margin-left: 0;
+}	
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+}
